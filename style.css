@@ -343,9 +343,31 @@ hr{
     font-size: 5rem;
     color: aliceblue;
 }
+
+.footer-menu p{
+    margin: 30px;
+    color: aliceblue;
+}
 .social{
     text-decoration: none;
     
     color: aliceblue;
+    
+}
+@media screen and (max-width: 576px) {
+
+    .logo,
+    .menu,
+    #brand,
+    .banner-name,.hero-bg, .circle, .maicrophone, .video {
+        flex-direction: column;
+    }
+    .about{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    
+
     
 }
