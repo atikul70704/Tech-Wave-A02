@@ -10,9 +10,10 @@
   font-weight: 600;
   font-style: normal;
 }
- body{
-   background: #0a0020;
-    /* color: #fff; */
+  body{
+   background: #0a0020; 
+   
+    
  }
  #brand{
     color: white;
@@ -21,15 +22,13 @@
     color: #ff00c8;
  }
 nav{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0px auto;
+    margin: -30px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #412567; */
+     /* background-color: #412567; */
 }
-nav .menu{
+ .menu{
     display: flex;
     margin-top:30px;
     gap: 100px;
@@ -40,12 +39,13 @@ nav .menu{
     
 }
 nav .menu a{
-    margin-top: 0;
-    padding: 10px;
+    padding: 0;
+    text-align: center;
     text-decoration: none;
     color: aliceblue;
     justify-content: center;
 }
+
 .btn{
     border: none;
    margin: 25px;
@@ -56,6 +56,10 @@ nav .menu a{
     color: white;
     background: linear-gradient(45deg, #ff00c8, #ff8800);
 }
+.btn:hover{
+    color: black;
+    background: aliceblue;
+}
 .parent{
     position: relative;
     
@@ -63,13 +67,12 @@ nav .menu a{
 .hero-bg{
     width: 95px;
     height: 95px;
-    
 
 }
 .circle{
     position: absolute;
     left: 625PX;
-    top: 160px;
+    top: 200px;
 }
 .circle:hover{
     transform: scale(3px);
@@ -80,7 +83,7 @@ nav .menu a{
 .maicrophone{
     position: absolute;
     left: 750px;
-    top: 250px; 
+    top: 300px; 
 }
 .maicrophone:hover{
     transform: rotate(30deg);
@@ -90,5 +93,156 @@ nav .menu a{
     cursor: pointer;
 
 }
-
+.banner{
     
+}
+.banner-name{
+    margin-top: 400px;
+    padding: auto;
+    font-size: 4rem;
+    text-align: center;
+    color: aliceblue;
+}
+.banner-p{
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.btn{
+    margin: 60px;
+    text-align: center;
+    padding: 10px 30px auto;
+    gap: 30px;
+    
+}
+.spotify{
+    
+    padding: 8px ;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #ff00c8, #ff8800);
+    color: azure;
+
+}
+.spotify:hover{
+    color: black;
+    background: aliceblue;
+}
+.sub{
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 20px;
+    background: none;
+    color: green;
+}
+.sub:hover{
+    color: aliceblue;
+    background: #0a0020;
+}
+.about{
+    text-align: center;
+    color: aliceblue;
+}
+.paragrap-about{
+    margin: 25px;
+    padding: 0 auto;
+    text-align: center;
+}
+.paragrap{
+    margin: 10px;
+    padding: 0 auto;
+    text-align: center;
+}
+hr{
+    margin-top: 20px;
+    padding: 0 auto;
+    width: 90%;
+    align-items: center;
+}
+.view{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.view h2{
+    font-size: 2rem;
+    color: green;
+}
+.view{
+    font-size: .80rem;
+    color: aliceblue;
+}
+.features{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    /* border: 1px solid  aliceblue; */
+    color: aliceblue;
+    /* background-color:#170332 ; */
+}
+.features-card h3{
+    font-size: .70rem;
+  color: aliceblue;
+  
+}
+.features-card p{
+    margin: 10px;
+    color: aliceblue;
+    font-size: .60rem;
+}
+.features-card img{
+    width: 25px;
+
+}
+.features-card{
+
+    margin-top: 20px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    
+}
+ .card1{
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: px;
+    text-align: left;
+    background-color:#170332 ;
+ }
+ .card2{
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    grid-column: span 3;
+    grid-row: span 1;
+    text-align: left;
+    background-color:#170332 ;
+ }
+ .card3{
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    grid-column: span 3;
+    grid-row: span 1;
+   text-align: left;
+   background-color:#170332 ;
+ }
+ .card4{
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    grid-column: span 3;
+    grid-row: span 2;
+   text-align: left;
+   background-color:#170332 ;
+ }
+ .card5{
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    grid-column: span 2;
+    grid-row: span 1;
+    text-align: left;
+    background-color:#170332 ;
+ }
+
+
